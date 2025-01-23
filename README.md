@@ -1,4 +1,4 @@
-# Proyecto de Base de Datos
+# Creación de BB.DD Académica
 
 Este proyecto tiene como objetivo crear una base de datos enfocada en la gestión de información de estudiantes y profesores de una institución académica especializada en programas de entrenamiento intensivo en diversas áreas tecnológicas. 
 
