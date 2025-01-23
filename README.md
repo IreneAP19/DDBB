@@ -29,7 +29,9 @@ La base de datos contiene las siguientes tablas principales:
 - **Sistema Gestor de Base de Datos (SGBD):** PostgreSQL
 - **Librerías:**  
   - `pandas`  
-  - `psycopg2`  
+  - `psycopg2`
+  -  `sqlalchemy`
+     
 - **Archivos CSV:** Proporcionados para poblar las tablas con datos iniciales.  
 - **Lenguaje de Programación:** Python, utilizado para interactuar con la base de datos y realizar operaciones.
 
