@@ -23,3 +23,17 @@ def asignar_vertical(proyecto):
         if proyecto in proyectos:
             return vertical
     return 'Desconocido'
+
+
+#Función para pasar los DataFrame a pgAdmin con un diccionario donde tenemos todos los DF relacionados con las tablas
+
+from sqlalchemy import create_engine
+engine = create_engine('postgresql://school_db_hkla_user:S8tvOM5YVinPoWddRVHG8Q4qMr3TFSek@dpg-cu8fnnl6l47c738hj8v0-a.frankfurt-postgres.render.com:5432/school_db_hkla')
+def upload_tables(dict, engine):
+    for table_name, dataframe in dict.items():
+        dataframe.to_sql(
+            name=table_name,  # Use the key as the table name
+            con=engine,       # Database engine
+            if_exists="append",  # If the table exists, append
+            index=False        # Do not write the index
+        )
