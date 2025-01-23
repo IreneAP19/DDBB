@@ -21,8 +21,7 @@ La base de datos contiene las siguientes tablas principales:
 9. **A_Clase**
 10. **P_Clase**
 
-> **Nota:** Se incluye la opción de incorporar un diagrama Entidad/Relación (E/R) para una mejor visualización del modelo.
-
+> ![Diagrama E/R](modelos/Modelo_ERD.png)
 ---
 
 ## 🛠️ Herramientas Utilizadas
