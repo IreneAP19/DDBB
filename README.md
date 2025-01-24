@@ -37,6 +37,10 @@ La base de datos contiene las siguientes tablas principales:
 - **Lenguaje de Programación:** Python, utilizado para interactuar con la base de datos y realizar operaciones.
 
 ---
+## **Autores**
+- Ignacio Miguelsanz
+- Irene Arrabé
+- Yanelis Gonzalez
 
 ## ⚙️ Configuración
 
@@ -44,9 +48,5 @@ La base de datos contiene las siguientes tablas principales:
 ```bash
 https://github.com/IreneAP19/DDBB.git
 
-### **Autores**
-- Ignacio Miguelsanz
-- Irene Arrabé
-- Yanelis Gonzalez
 
 
