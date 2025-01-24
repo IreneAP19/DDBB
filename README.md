@@ -42,6 +42,11 @@ La base de datos contiene las siguientes tablas principales:
 
 ### 1. Clonar este repositorio
 ```bash
-git clone <https://github.com/IreneAP19/DDBB/blob/main/README.md>
+https://github.com/IreneAP19/DDBB.git
+
+### **Autores**
+- Ignacio Miguelsanz
+- Irene Arrabé
+- Yanelis Gonzalez
 
 
